@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6dceb977-7c29-4713-a184-1e3df8479f49}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d7dac4e0-5eda-458f-aeea-7b2b7f0e590c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="lpng">
+      <UniqueIdentifier>{50b3dab7-f8b6-44a2-b880-f7caec5c5467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{a18cc8ae-2d75-4886-8c41-0ac692216c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3f427458-86b2-4f42-9073-8448d63ebec2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effet_particule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glpng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ligne3D1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\png.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngerror.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pnggccrd.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngget.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngmem.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngpread.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngread.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngrio.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngrtran.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngrutil.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngset.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngtrans.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngvcrd.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngwio.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngwrite.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngwtran.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="lpng\pngwutil.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzio.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effet_particule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glpng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ligne3D1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lpng\png.h">
+      <Filter>lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="lpng\pngconf.h">
+      <Filter>lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.in.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
